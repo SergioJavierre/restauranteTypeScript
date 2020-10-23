@@ -22,6 +22,7 @@ flan.nombre = "Flan"
 
 let entrecot = new Especial()
 entrecot.nombre = "Entrecot"
+entrecot.suplemento = 4
 
 menu.primeros = [ensalada, macarrones]
 menu.segundos = [cordero, merluza]
@@ -35,3 +36,4 @@ let pedido = new Pedido()
 pedido.cliente = cliente
 pedido.platos = [ensalada, entrecot, flan]
 
+pedido.eleccion()
